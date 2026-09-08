@@ -1,0 +1,84 @@
+{
+  "users": [],
+  "products": [],
+  "promotions": [],
+  "brands": [],
+  "orders": [],
+  "notifications": [],
+  "messages": [],
+  "conversations": [],
+  "trades": [],
+  "paymentMethods": [
+    {
+      "id": "cash_on_delivery",
+      "name": "Paiement \u00e0 la livraison",
+      "description": "Paie \u00e0 la r\u00e9ception.",
+      "provider": "cash",
+      "logo": "cash",
+      "enabled": true,
+      "instructions": "Pr\u00e9pare le montant exact \u00e0 la livraison."
+    },
+    {
+      "id": "stripe",
+      "name": "Carte bancaire",
+      "description": "Paiement s\u00e9curis\u00e9 par Stripe.",
+      "provider": "stripe",
+      "logo": "stripe",
+      "enabled": false,
+      "instructions": "Paiement en ligne s\u00e9curis\u00e9."
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "description": "Paiement avec PayPal.",
+      "provider": "paypal",
+      "logo": "paypal",
+      "enabled": false,
+      "instructions": "Paiement via PayPal."
+    }
+  ],
+  "streamingPlans": [
+    {
+      "id": "netflix-basic",
+      "service": "netflix",
+      "name": "Basic",
+      "price": 0,
+      "currency": "HTG",
+      "description": "Abonnement mensuel",
+      "enabled": true
+    },
+    {
+      "id": "netflix-standard",
+      "service": "netflix",
+      "name": "Standard",
+      "price": 0,
+      "currency": "HTG",
+      "description": "Abonnement mensuel",
+      "enabled": true
+    },
+    {
+      "id": "netflix-premium",
+      "service": "netflix",
+      "name": "Premium",
+      "price": 0,
+      "currency": "HTG",
+      "description": "Abonnement mensuel",
+      "enabled": true
+    },
+    {
+      "id": "disney-standard",
+      "service": "disney",
+      "name": "Standard",
+      "price": 0,
+      "currency": "HTG",
+      "description": "Abonnement mensuel",
+      "enabled": true
+    }
+  ],
+  "settings": {
+    "tradeEnabled": true,
+    "adminPhone": "509XXXXXXXX",
+    "notificationPreferences": {}
+  },
+  "pushSubscriptions": []
+}
