@@ -1,0 +1,1 @@
+(async()=>{const base=process.env.TEST_BASE_URL||"http://localhost:10000";const r=await fetch(base+"/api/health");console.log(await r.text())})().catch(e=>{console.error(e);process.exit(1)})
